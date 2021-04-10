@@ -1,0 +1,19 @@
+#paragrafo{
+	color: rgb(0, 17, 255);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	margin-left: 15%;
+}
+#imagem{
+	border-radius: 2%;
+	margin-left: 20%;
+}
+#Botao{
+	margin-top: 7%;
+	border-radius: 3%;
+	padding: 3px;
+	box-shadow: 10px;
+}
+.fundo{
+	background-color: green
+}

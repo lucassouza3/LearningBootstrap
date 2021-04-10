@@ -1,0 +1,73 @@
+body {
+    background-color:rgba(163, 207, 203, 0.651);
+    margin: auto;
+    max-width: 900px;
+}
+#title, .subtitle, .post_title{
+    color:rgba(0, 55, 128, 0.801)
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.post{
+    background: rgba(108, 139, 185, 0.767);
+    padding: 0px 0px 15px;
+    border: 2px solid #505050;
+    margin: 0px 0px 15px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.imagem{
+    border-radius: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.post{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teste a{
+    color:blue;
+}
+
+.NotOrdened{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NotOrdened li a{
+    color: blue;
+}
+
+.git{
+    list-style-image: url("github.png");
+}
+
+.facebook{
+    list-style-image: url("facebook.png");
+}
+
+.twitter{
+    list-style-image: url("twitter.png");
+}
+
+.habbo{
+    list-style-image: url("habbo.png");
+}
+
+.habbonews{
+    list-style-image: url("habbonews.png");
+}
+
+.instagram{
+    list-style-image: url("instagram.png");
+}
