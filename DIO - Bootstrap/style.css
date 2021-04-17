@@ -1,17 +1,31 @@
 body {
     background-color:rgba(163, 207, 203, 0.651);
-    margin: auto;
-    max-width: 900px;
+    margin: 0;
 }
+
 #title, .subtitle, .post_title{
     color:rgba(0, 55, 128, 0.801)
 }
+
+.navbar {
+    background-color: rgba(7, 124, 160, 0.918);
+}
+
+.Cabess {
+    background-color: wheat;
+}
+
+.margin {
+    padding-top: 30px;
+}
+
 .post_title{
     font-size: 16px;
     font-style: italic;
     margin: 0px;
     margin-bottom: 15px;
 }
+
 .post{
     background: rgba(108, 139, 185, 0.767);
     padding: 0px 0px 15px;
@@ -20,19 +34,20 @@ body {
     border-radius: 5px;
     margin: 0px;
     margin-bottom: 15px;
-}
-.imagem{
-    border-radius: 10px;
-    margin: 0px;
-    margin-bottom: 5px;
-    width: 100%;
-}
-
-.post{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     text-align: justify;
+}
+
+.imagem{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 0px 0px 0px 25%;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 700px;
+    max-height: 800px;
 }
 
 .teste a{
@@ -48,26 +63,40 @@ body {
     color: blue;
 }
 
+.navbar-nav{
+    margin-left: 40px;
+}
+
 .git{
     list-style-image: url("github.png");
+    margin-left: 3%;
 }
 
 .facebook{
     list-style-image: url("facebook.png");
+    margin-left: 5%;
 }
 
 .twitter{
     list-style-image: url("twitter.png");
+    margin-left: 5%;
 }
 
 .habbo{
     list-style-image: url("habbo.png");
+    margin-left: 5%;
 }
 
 .habbonews{
     list-style-image: url("habbonews.png");
+    margin-left: 5%;
 }
 
 .instagram{
     list-style-image: url("instagram.png");
+    margin-left: 5%;
+}
+#WebExplain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }

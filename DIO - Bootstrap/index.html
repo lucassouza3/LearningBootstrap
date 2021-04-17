@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html>
-<!--Título da página-->
+<html lang = 'pt-br'>
+<!--Head/Cabeçalho-->
     <head>
-        <meta = charset="UTF-8">
-        <title>Who's Lucas Souza?</title>
-        <link rel="stylesheet" href="style.css">
+        <meta = charset="UTF-8"><!--utf-8 permite a inserção de acentos, cedilha, etc.-->
+        <title>Who's Lucas Souza?</title> <!--Título da página, aparece na aba.-->
+        <link href="D:\Projetos HTML CSS JS\DIO - Bootstrap\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://img.itch.zone/aW1nLzMwNjU4MTcuZ2lm/347x500/f9adsW.gif"><!--Imagem 64x64 ao lado, esquerdo, do título-->
+        <link rel="stylesheet" type = 'text/css' href="style.css"> <!--CSS-->
     </head>
-<!--FimTitulo-->
-<!--CSS-->
+<!--FimCabeçalho-->
 
 <!--Corpo-->
     <body>
-        Lucas Souza
+    <!--Barra de navegação (topo)-->
+        <nav class="navbar navbar-expand-lg navbar-light bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Sites</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="certificados.html">Certificados</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                </div>
+            </div>
+        </nav>
     </body>
 <!--FimCorpo-->
 
 <!--Cabeçalho-->
     <header>
-        <img class="imagem" src='D:\PraticandoNaDio\Imagens\WIN_20200811_08_20_18_Pro.jpg' alt='Foto aleatória minha fazendo cara de mau.' with='500' height='250'>
-        <h1 id="title">Who's Lucas Souza?</h1>
+       <img class="imagem" src='D:\Projetos HTML CSS JS\DIO - Bootstrap\Imagens\IMG-20210304-WA0059.jpg' alt='Eu e amigos no Beto Carrero'>
+        <h1 id="title">Who's Lucas Souza?</h1> <!--H1 é uma tag para hierarquia de texto e não de títulos.-->
     </header>
 <!--FimCabeçalho-->
     <section>
@@ -31,23 +57,23 @@
 
     </section>
     <p class="teste">
-        Podes visitar meu linkedin em : <a href="https://www.linkedin.com/in/lucassouza3/" target="__blank">Meu LinkedIn</a> ou
+        Visite meu linkedin em : <a href="https://www.linkedin.com/in/lucassouza3/" target="__blank">Meu LinkedIn</a> ou
         <a href="mailto:n3b8k9c7@gmail.com" target="_blank">Envie-me um e-mail</a>"
     </p>
 
 <!--Rodapé-->
     <footer>
-    <!--Lista Não Ordenada-->
-        <ul class="NotOrdened">
-        <li class="git"><a href="https://github.com/lucassouza3" target='__blank'>GitHub</a>
-        <li class="twitter"><a href="https://twitter.com/Injusticado_HB" target='__blank'>Twitter</a>
-        <li class="facebook"><a href="https://www.facebook.com/Lucas.Souza.Neve" target='__blank'>Facebook</a>
-        <li class="instagram"><a href="https://www.instagram.com/oluscasouza/?hl=pt-br" target='__blank'>Instagram</a>
-        <li class="habbonews"><a href="https://www.habbonews.net/#NovoDominio!" target='__blank'>Blog: Habbonews</a>
-        <li class="habbo"><a href="https://www.habbo.com.br/profile/Injusti%C3%A7ado:." target='__blank'>Habbo Perfil</a>
+        <!--Lista Não Ordenada-->
+        <ul class="list-group list-group-horizontal">
+            <li class="git"><a href="https://github.com/lucassouza3" target='__blank'>GitHub</a>
+            <li class="twitter"><a href="https://twitter.com/Injusticado_HB" target='__blank'>Twitter</a>
+            <li class="facebook"><a href="https://www.facebook.com/Lucas.Souza.Neve" target='__blank'>Facebook</a>
+            <li class="instagram"><a href="https://www.instagram.com/oluscasouza/?hl=pt-br" target='__blank'>Instagram</a>
+            <li class="habbonews"><a href="https://www.habbonews.net/#NovoDominio!" target='__blank'>Blog: Habbonews</a>
+            <li class="habbo"><a href="https://www.habbo.com.br/profile/Injusti%C3%A7ado:." target='__blank'>Habbo Perfil</a>
         </ul>
-    <!--FimLista-->
-        Criado por Lucas Souza Neves, como seu primeiro projeto em HTML5 e CSS3 ministrado pela Digital Innovation One (DIO).
+        <!--FimLista-->
+        Criado por Lucas Souza Neves, como seu primeiro projeto em HTML5 e CSS3, utilizando o bootstrap, ministrado pela Digital Innovation One (DIO).
     </footer>
 <!--FimRodapé-->
 </html>
