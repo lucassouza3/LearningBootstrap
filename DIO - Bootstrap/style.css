@@ -1,6 +1,5 @@
 body {
     background-color:rgba(163, 207, 203, 0.651);
-    margin: 0;
 }
 
 #title, .subtitle, .post_title{
@@ -38,14 +37,19 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     text-align: justify;
+    padding: 0px 5px 0px 5px;
+}
+
+.Textoindex{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
 
 .imagem{
     border-radius: 10px;
-    margin-top: 20px;
-    margin: 0px 0px 0px 25%;
-    margin-bottom: 5px;
     width: 100%;
+    height: 100%;
     max-width: 700px;
     max-height: 800px;
 }
@@ -67,36 +71,41 @@ body {
     margin-left: 40px;
 }
 
-.git{
-    list-style-image: url("github.png");
-    margin-left: 3%;
+#git{
+    list-style: none;
 }
 
-.facebook{
-    list-style-image: url("facebook.png");
-    margin-left: 5%;
+#facebook{
+    list-style: none;
 }
 
-.twitter{
-    list-style-image: url("twitter.png");
-    margin-left: 5%;
+#twitter{
+    list-style: none;
 }
 
-.habbo{
-    list-style-image: url("habbo.png");
-    margin-left: 5%;
+#habbo{
+    list-style: none;
 }
 
-.habbonews{
-    list-style-image: url("habbonews.png");
-    margin-left: 5%;
+#habbonews{
+    list-style: none;
 }
 
-.instagram{
-    list-style-image: url("instagram.png");
-    margin-left: 5%;
+#instagram{
+    list-style: none;
 }
+
 #WebExplain{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+
+#Rodape{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    align-self: center;
+    background-color:rgba(163, 207, 203, 0.651);
+}
+.bg-normal{
+    background-color:rgba(163, 207, 203, 0.651);
 }

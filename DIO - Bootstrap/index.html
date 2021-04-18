@@ -3,10 +3,11 @@
 <!--Head/Cabeçalho-->
     <head>
         <meta = charset="UTF-8"><!--utf-8 permite a inserção de acentos, cedilha, etc.-->
-        <title>Who's Lucas Souza?</title> <!--Título da página, aparece na aba.-->
+        <title>Lucas Souza</title> <!--Título da página, aparece na aba.-->
         <link href="D:\Projetos HTML CSS JS\DIO - Bootstrap\bootstrap\css\bootstrap.min.css" rel="stylesheet">
         <link rel="shortcut icon" href="https://img.itch.zone/aW1nLzMwNjU4MTcuZ2lm/347x500/f9adsW.gif"><!--Imagem 64x64 ao lado, esquerdo, do título-->
         <link rel="stylesheet" type = 'text/css' href="style.css"> <!--CSS-->
+        <link href="D:\Projetos HTML CSS JS\DIO - Bootstrap\bootstrap\css\bootstrap-utilities.min.css" rel='stylesheet'>
     </head>
 <!--FimCabeçalho-->
 
@@ -22,10 +23,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Página inicial</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Página inicial</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Sites</a>
+                    <a class="nav-link" href="projeto.html">Sobre o Projeto</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="certificados.html">Certificados</a>
@@ -43,37 +44,44 @@
 
 <!--Cabeçalho-->
     <header>
-       <img class="imagem" src='D:\Projetos HTML CSS JS\DIO - Bootstrap\Imagens\IMG-20210304-WA0059.jpg' alt='Eu e amigos no Beto Carrero'>
-        <h1 id="title">Who's Lucas Souza?</h1> <!--H1 é uma tag para hierarquia de texto e não de títulos.-->
+        <div class='container-fluid text-center margin'>
+            <img class="imagem img-fluid" src='D:\Projetos HTML CSS JS\DIO - Bootstrap\Imagens\IMG-20210304-WA0059.jpg' alt='Eu e amigos no Beto Carrero'>
+            <h1 id="title">Who's Lucas Souza?</h1> <!--H1 é uma tag para hierarquia de texto e não de títulos.-->
+        </div>
     </header>
 <!--FimCabeçalho-->
-    <section>
-        <h2 class="subtitle">Quem sou eu?</h2>
-        <h3 class="post_title">Um pouco sobre mim</h3>
-        <article class="post"><p><header>
-            Olá, eu sou Lucas Souza e pretendo falar um pouco sobre mim neste projeto HTML.
-            Sou apaixonado por computação desde os meus 7 anos, quando meu tio, que trabalha com manutenção de compuadores, levou para casa    o primeiro computador que vi em minha vida. Desde então, apaixonei-me por montar/desmontar computadores, jogos virtuais, programação, banco de dados, tudo sobre tecnologia me fascina.
-        </header></p></article>
+    <div class='container-fluid text-left'>
+        <section>
+            <h2 class="subtitle">Quem sou eu?</h2>
+            <h3 class="post_title">Um pouco sobre mim</h3>
+            <article class="post"><p><header>
+                Olá, eu sou Lucas Souza e pretendo falar um pouco sobre mim neste projeto HTML.
+                Sou apaixonado por computação desde os meus 7 anos, quando meu tio, que trabalha com manutenção de computadores, levou para casa o primeiro computador que vi em minha vida (na verdade era um estabilizador e ele me trolou hahaha). Desde então, apaixonei-me por montar/desmontar computadores, por jogos virtuais, por programação, por banco de dados, tudo sobre tecnologia me fascina.
+            </header></p></article>
 
-    </section>
-    <p class="teste">
-        Visite meu linkedin em : <a href="https://www.linkedin.com/in/lucassouza3/" target="__blank">Meu LinkedIn</a> ou
-        <a href="mailto:n3b8k9c7@gmail.com" target="_blank">Envie-me um e-mail</a>"
-    </p>
-
+        </section>
+        <p class="teste">
+            Visite meu linkedin em : <a href="https://www.linkedin.com/in/lucassouza3/" target="__blank">Meu LinkedIn</a> ou
+            <a href="mailto:n3b8k9c7@gmail.com" target="_blank">Envie-me um e-mail</a>"
+        </p>
+    </div>
 <!--Rodapé-->
     <footer>
-        <!--Lista Não Ordenada-->
-        <ul class="list-group list-group-horizontal">
-            <li class="git"><a href="https://github.com/lucassouza3" target='__blank'>GitHub</a>
-            <li class="twitter"><a href="https://twitter.com/Injusticado_HB" target='__blank'>Twitter</a>
-            <li class="facebook"><a href="https://www.facebook.com/Lucas.Souza.Neve" target='__blank'>Facebook</a>
-            <li class="instagram"><a href="https://www.instagram.com/oluscasouza/?hl=pt-br" target='__blank'>Instagram</a>
-            <li class="habbonews"><a href="https://www.habbonews.net/#NovoDominio!" target='__blank'>Blog: Habbonews</a>
-            <li class="habbo"><a href="https://www.habbo.com.br/profile/Injusti%C3%A7ado:." target='__blank'>Habbo Perfil</a>
-        </ul>
-        <!--FimLista-->
-        Criado por Lucas Souza Neves, como seu primeiro projeto em HTML5 e CSS3, utilizando o bootstrap, ministrado pela Digital Innovation One (DIO).
+        <div class='container-fluid text-center'>
+            <!--Lista Não Ordenada-->
+            <div class='row'>
+                <ul class="list-group list-group-horizontal">
+                    <li class="col-md-2 col-sm-2" id="git"><a href="https://github.com/lucassouza3" target='__blank'><img src='github.png'></a>
+                    <li class="col-md-2 col-sm-2" id="twitter"><a href="https://twitter.com/Injusticado_HB" target='__blank'><img src='twitter.png' alt='Ícone ligado ao perfil Twitter'></a>
+                    <li class="col-md-2 col-sm-2" id="facebook"><a href="https://www.facebook.com/Lucas.Souza.Neve" target='__blank'><img src='facebook.png' alt='Ícone ligado ao Perfil Facebook'></a>
+                    <li class="col-md-2 col-sm-2" id="instagram"><a href="https://www.instagram.com/oluscasouza/?hl=pt-br" target='__blank'><img src='instagram.png' alt='Ícone ligado ao perfil Instagram'></a>
+                    <li class="col-md-2 col-sm-2" id="habbo"><a href="https://www.habbo.com.br/profile/Injusti%C3%A7ado:." target='__blank'><img src='habbo.png' alt='Ícone ligado ao perfil Habbo'></a>
+                </ul>
+            </div>
+            <!--FimLista-->
+            Criado por Lucas Souza Neves, como seu primeiro projeto em HTML5 e CSS3, utilizando o bootstrap, ministrado pela Digital Innovation One (DIO).
+        </div>
     </footer>
+
 <!--FimRodapé-->
 </html>
