@@ -4,3 +4,4 @@ pt-BR: Olá, este repositório é voltado somente à prática de HTML5 e CSS3. :
 \
 en-US: Yo, this repository is only for pratice and learn a bite of HTML5 and CSS3. :eyes:
 ###### Não esqueça sua :mask: | So, don't forget ur :mask:
+###### ATT: Agora, estou introduzindo um pouco de ReactJS e JavaScript | ATT: Now I'm introducing ReactJS and a lil bite of JavaScript :eyes:
